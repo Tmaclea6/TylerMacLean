@@ -8,7 +8,6 @@ import Contact from "../Components/Page/Contact";
 function AppRouter() {
   return (
     <Router basename={"/myreactapp"}>
-      <Menu />
       <Route exact path={`/`} component={PlanGame} />
       <Route path={`/about`} component={About} />
       <Route path={`/contact`} component={Contact} />

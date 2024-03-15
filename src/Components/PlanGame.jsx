@@ -9,7 +9,7 @@ function PlanGame() {
     This project was inspired by and created for my 
     beautiful fiance Kira Smith <3
   */
-    const [file, setFile] = useState('dog.png');
+    const [file, setFile] = useState(process.env.PUBLIC_URL +"/dog.png");
     const [settings, setSettingsOpen] = useState(false);
     function handleChange(e) {
         console.log(e.target.files);
@@ -88,11 +88,11 @@ function PlanGame() {
             <button className="button1" onClick={() => setAreas(prev => (prev + 1))}>+</button>
             <div>
               <button className="settingsButton" onClick={openSettings}>
-                <img src="gear.png" height='50px' width='50px' className="background"></img>
+                <img src={process.env.PUBLIC_URL +"/gear.png"} height='50px' width='50px' className="background"></img>
               </button>
             </div>
             <Draggable onDrag={saveLocation}>
-              <img id="piece" className="absolute" src={file} draggable={false}/>
+              <img id={process.env.PUBLIC_URL +"/"+file} className="absolute" src={file} draggable={false}/>
             </Draggable>  
           </div>
         )}
