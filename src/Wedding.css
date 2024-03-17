@@ -64,6 +64,7 @@ p {
 }
 .round {
     border-radius: 75px;
+    margin-right: 30px;
 }
 
 .cta-button:hover {
