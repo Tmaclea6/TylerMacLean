@@ -7,7 +7,7 @@ import Contact from "../Components/Page/Contact";
 
 function AppRouter() {
   return (
-    <Router basename={"/myreactapp"}>
+    <Router basename={"/tylermaclean"}>
       <Route exact path={`/`} component={PlanGame} />
       <Route path={`/Wedding`} component={Wedding} />
       <Route path={`/contact`} component={Contact} />
