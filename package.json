@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "/tylermacLean",
+  "engines": {
+    "npm": "8.3.1",
+    "node": "16.14.0",
+  },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "react": "^17.0.2",
