@@ -30,7 +30,7 @@ function Wedding() {
             <Popup trigger={<a class="cta-button">Registry</a>} position="center" modal>
                 <div>
                     <center>
-                        <p class='apple'>We truly mean it when we say that your presence and participation in our special day is all the gift we need! If you would still like to send us a physical gift, you can continue throuugh to see our wedding registry. We do not have a cash fund listed as the fees associated with this program are high, but if you would like to make a contribution to our honeymoon fund, you are welcome to do so through cash or etransfer. </p>
+                        <p class='apple'>We truly mean it when we say that your presence and participation in our special day is all the gift we need! If you would still like to send us a physical gift, you can continue through to see our wedding registry. We do not have a cash fund listed as the fees associated with this program are high, but if you would like to make a contribution to our honeymoon fund, you are welcome to do so through cash or etransfer. </p>
                         <a href="https://www.myregistry.com/giftlist/macleanwedding" class="cta-button">Continue</a>
                     </center>
                 </div>
