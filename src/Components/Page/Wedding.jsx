@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import "../.././Wedding.css";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 function Wedding() {
   return (
     <div>
@@ -24,7 +26,15 @@ function Wedding() {
             <span>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBJkd0V2FeG27PqynlsnU39fkpeFNKd1EXUQAjxbrs8JXH4Q/viewform?usp=sf_link" class="cta-button">RSVP</a>
             <a href="#details" class="cta-button">Details</a>
-            <a href="https://www.myregistry.com/giftlist/macleanwedding" class="cta-button">Registry</a>
+            
+            <Popup class='container' trigger={<a class="cta-button">Registry</a>} position="center" modal nested>
+                <div>
+                    <center>
+                        <p class='apple'>We truly mean it when we say that your presence and participation in our special day is all the gift we need! If you would still like to send us a physical gift, you can continue throuugh to see our wedding registry. We do not have a cash fund listed as the fees associated with this program are high, but if you would like to make a contribution to our honeymoon fund, you are welcome to do so through cash or etransfer. </p>
+                        <a href="https://www.myregistry.com/giftlist/macleanwedding" class="cta-button">Continue</a>
+                    </center>
+                </div>
+            </Popup>
             </span>
         </div>
         <center>
@@ -37,14 +47,15 @@ function Wedding() {
         <div class="container">
             <center id="details" class="grey-qo-regular-purple">Details</center>
             <div class="bold">What should I bring?</div>
-            <div> There will be lots of outdoor activities after the cerimony and there are places to change so bring active clothes and swimtrunks</div>
+            <div> After the ceremony, you will have the chance to explore the camp's activities! There are places to change, so please bring clothes you can play in and a bathing suit in case you really want to have fun!</div>
+            <div class="bold">What should I wear?</div>
+            <div>There is no real dress code for guests, but if you're planning on hopping in some pictures, be sure to wear something that makes you feel good!</div>
             <div class="bold">What should I not bring?</div>
-            <div>It is a dry campus, Drugs and Alcohol are not permitted, Thanks!</div>
-            <div class="bold">Activities?</div>
-            <div>Activities include Lawn games and an inflatabel water park</div>
-            <div class="bold">Food?</div>
-            <div>The Cremony will be followed by a BBQ picnic style lunch</div>
-            
+            <div>For insurance purposes, GHLC is a dry site. Drugs and alcohol are not permitted under any circumstances. Thank you in advance for your understanding!</div>
+            <div class="bold">What will we do?</div>
+            <div>After the ceremony, activities will open, including but not limited to archery, lawn games, Archery Tag, swimming pool, canoeing/kayaking, and an inflatable water park.</div>
+            <div class="bold">What will we eat?</div>
+            <div>The ceremony will be followed by a BBQ picnic-style lunch and strawberry dessert bar. There will be plenty of snacks to tide you over until you're ready to head home!</div>
 
         </div>
         
