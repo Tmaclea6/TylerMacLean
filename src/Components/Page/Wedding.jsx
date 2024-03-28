@@ -27,7 +27,7 @@ function Wedding() {
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBJkd0V2FeG27PqynlsnU39fkpeFNKd1EXUQAjxbrs8JXH4Q/viewform?usp=sf_link" class="cta-button">RSVP</a>
             <a href="#details" class="cta-button">Details</a>
             
-            <Popup class='container' trigger={<a class="cta-button">Registry</a>} position="center" modal nested>
+            <Popup trigger={<a class="cta-button">Registry</a>} position="center" modal>
                 <div>
                     <center>
                         <p class='apple'>We truly mean it when we say that your presence and participation in our special day is all the gift we need! If you would still like to send us a physical gift, you can continue throuugh to see our wedding registry. We do not have a cash fund listed as the fees associated with this program are high, but if you would like to make a contribution to our honeymoon fund, you are welcome to do so through cash or etransfer. </p>
