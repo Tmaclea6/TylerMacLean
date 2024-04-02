@@ -24,7 +24,14 @@ function Wedding() {
             </div>
 
             <span>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBJkd0V2FeG27PqynlsnU39fkpeFNKd1EXUQAjxbrs8JXH4Q/viewform?usp=sf_link" class="cta-button">RSVP</a>
+            <Popup trigger={<a class="cta-button">RSVP</a>} position="center" modal>
+                <div>
+                    <center>
+                        <p class='apple'>The children invited were invited intentionally and their participation is welcome and encouraged. Please continue and RSVP with all attendees.</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBJkd0V2FeG27PqynlsnU39fkpeFNKd1EXUQAjxbrs8JXH4Q/viewform?usp=sf_link" class="cta-button">Continue</a>
+                    </center>
+                </div>
+            </Popup>
             <a href="#details" class="cta-button">Details</a>
             
             <Popup trigger={<a class="cta-button">Registry</a>} position="center" modal>

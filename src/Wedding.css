@@ -124,6 +124,7 @@ p {
 
 .cta-button:hover {
     background-color: #555;
+    cursor: pointer;
 }
 .map{
     width: 40vw;
