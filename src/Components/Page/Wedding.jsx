@@ -54,7 +54,7 @@ function Wedding() {
         <div class="container">
             <center id="details" class="grey-qo-regular-purple">Details</center>
             <div class="bold">Time?</div>
-            <div>Ceremony begins at 11:00am sharp. See you there.   </div>
+            <div>Ceremony begins at 11:00am sharp. See you there!   </div>
             <div class="bold">What should I bring?</div>
             <div> After the ceremony, you will have the chance to explore the camp's activities! There are places to change, so please bring clothes you can play in and a bathing suit in case you really want to have fun!</div>
             <div class="bold">What should I wear?</div>
