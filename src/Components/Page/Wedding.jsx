@@ -24,14 +24,9 @@ function Wedding() {
             </div>
 
             <span>
-            <Popup trigger={<a class="cta-button">RSVP</a>} position="center" modal>
-                <div>
-                    <center>
-                        <p class='apple'>The children invited were invited intentionally and their participation is welcome and encouraged. Please continue and RSVP with all attendees.</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBJkd0V2FeG27PqynlsnU39fkpeFNKd1EXUQAjxbrs8JXH4Q/viewform?usp=sf_link" class="cta-button">Continue</a>
-                    </center>
-                </div>
-            </Popup>
+        
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBJkd0V2FeG27PqynlsnU39fkpeFNKd1EXUQAjxbrs8JXH4Q/viewform?usp=sf_link" class="cta-button">RSVP</a>
+                 
             <a href="#details" class="cta-button">Details</a>
             
             <Popup trigger={<a class="cta-button">Registry</a>} position="center" modal>
@@ -65,6 +60,8 @@ function Wedding() {
             <div>After the ceremony, activities will open, including but not limited to archery, lawn games, Archery Tag, swimming pool, canoeing/kayaking, and an inflatable water park.</div>
             <div class="bold">What will we eat?</div>
             <div>The ceremony will be followed by a BBQ picnic-style lunch and strawberry dessert bar. There will be plenty of snacks to tide you over until you're ready to head home!</div>
+            <div class="bold">Who is included with this invite?</div>
+            <div>Your whole household! If you have kids, please know they are invited intentionally and their participation is welcome and encouraged. If you have any further questions regardinmg who you can bring, please don't hesitate to reach out to one of us!</div>
 
         </div>
         
