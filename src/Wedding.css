@@ -117,6 +117,10 @@ p {
     border-radius: 75px;
     margin-right: 30px;
 }
+.roundish {
+    border-radius: 30px;
+    margin-right: 30px;
+}
 .bold {
     margin-top: 25px;
     font-weight: bold;
