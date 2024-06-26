@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
+import "../.././Redirect.css"
 function Redirect(){
 return(
-<div>
+<div class="background2">
 <head>
     <title>Tyler MacLean</title>
 </head>
-<body>
+<body class="background2 title">
     
-      <h1>Hope you find what you are looking for!</h1>
-       
-
-
+       <center>
+        <img src={process.env.PUBLIC_URL +"/Headshot2024.png"} max-height='300px' width='30%'  className="background title"></img>
+      </center>
         <span>
     
          <a href="https://github.com/Tmaclea6">
@@ -19,7 +19,7 @@ return(
         <a href="https://www.linkedin.com/in/tylermaclean/">
                 <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/Linkedin_logo_initials.png'}/>
         </a>
-        <a href={process.env.PUBLIC_URL} >
+        <a href='/Plangame' >
                 <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/PlanGame.png'}/>
         </a>  
         <a href='http://www.heresthescoophanwell.com/' >

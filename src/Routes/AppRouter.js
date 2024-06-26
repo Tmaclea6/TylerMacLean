@@ -8,12 +8,12 @@ import Place from "../Components/Page/Place";
 import Redirect from "../Components/Page/Redirect";
 function AppRouter() {
   return (
-    <Router basename={"/tylermaclean"}>
-      <Route exact path={`/`} component={PlanGame} />
+    <Router basename={""}>
+      <Route path={`/Plangame`} component={PlanGame} />
       <Route path={`/Wedding`} component={Wedding} />
       <Route path={`/contact`} component={Contact} />
       <Route path={`/Place`} component={Place} />
-      <Route path={`/Redirect`} component={Redirect} />
+      <Route exact path={`/`} component={Redirect} />
     </Router>
   );
 }
