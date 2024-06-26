@@ -14,10 +14,10 @@ return(
         <span>
     
          <a href="https://github.com/Tmaclea6">
-                <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/Github.png'}/>
+                <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/github.png'}/>
         </a>
         <a href="https://www.linkedin.com/in/tylermaclean/">
-                <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/Linkedin_logo_initials.png'}/>
+                <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/LinkedIn_logo_initials.png'}/>
         </a>
         <a href='/Plangame' >
                 <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/PlanGame.png'}/>
