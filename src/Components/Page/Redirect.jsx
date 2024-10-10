@@ -22,7 +22,7 @@ return(
         <a href='/Plangame' >
                 <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/PlanGame.png'}/>
         </a>  
-        <a href='http://www.heresthescoophanwell.com/' >
+        <a href='/HeresTheScoop' >
                 <img height={250} width={250} class='roundish' src={process.env.PUBLIC_URL +'/Heresthescoop.png'}/>
         </a> 
         <a href='/Place' >

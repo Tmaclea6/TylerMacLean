@@ -1,0 +1,123 @@
+.happy-monkey {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    opacity:100%; @important
+  }
+  
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 80px;
+      padding-bottom:30px;
+  
+    }
+  .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+     position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      width: 100%;
+      opacity: 80%;
+  }
+  .logo{
+  
+    padding:0px;
+     position: fixed;
+      top: 0;
+      left: 0;
+      height:90px;
+      width:105px;
+      z-index: 9999;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    opacity:100% !important;
+    margin-right:12px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .fb{
+    border:none;
+    overflow:hidden;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .details{
+    margin-right: 10vw;margin-left: 10vw; padding: 20px;background: papayawhip; border-radius:15px;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    opacity:100%;
+  }
+  .header a.pink {
+    background-color: #FF69B4;
+    color: white;
+  }
+  .header a.yellow {
+    background-color: #FFFF00;
+    color: white;
+  }
+  .header a.purple{
+    background-color: #7600bc;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  .lilText{
+      font-size:24px;
+  }
+  .bigText{
+      font-size:50px;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 1000px) {
+    .lilText{
+        font-size:48px;
+    }
+    .bigText{
+      font-size:60px;
+  }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 48px;
+    line-height: 25px;
+    border-radius: 4px;
+    opacity:100% !important;
+    margin-right:12px;
+  }
+  
+  }
+  
